@@ -1,0 +1,57 @@
+.ticket-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.loading,
+.error {
+  text-align: center;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.ticket-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ticket-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-title {
+  font-size: 1.5em;
+  margin: 0;
+  color: #333;
+}
+
+.ticket-description {
+  margin: 10px 0;
+  color: #666;
+}
+
+.ticket-details {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.ticket-severity {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.ticket-date {
+  display: inline-block;
+}
